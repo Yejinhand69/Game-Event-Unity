@@ -61,3 +61,5 @@ public class MyListener : MonoBehaviour, IGameEventListener
 }
 ```
 
+## Now your Unity development just got easier — no more messy references between scripts. Just create GameEvents and let your scripts communicate with each other cleanly and effortlessly
+
