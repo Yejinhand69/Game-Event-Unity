@@ -16,10 +16,13 @@ An easy way for scripts to talk to each other in Unity without needing direct re
 
 ## 🔧 How to Use
 
-### 1. Create a GameEvent Asset
+### 1. Import the GameEvent.cs & IGameEventListener.cs into your unity project file
+Can place them under a folder call 'Scripts → GameEvents'
+
+### 2. Create a GameEvent Asset
 Right-click in the Project panel → Create → Events → GameEvent
 
-### 2. Implement a Broadcaster
+### 3. Implement a Broadcaster
 ```csharp
 public class MyBroadcaster : MonoBehaviour
 {
@@ -32,7 +35,7 @@ public class MyBroadcaster : MonoBehaviour
 }
 ```
 
-### 3. Implement a Listener
+### 4. Implement a Listener
 
 ```csharp
 public class MyListener : MonoBehaviour, IGameEventListener
